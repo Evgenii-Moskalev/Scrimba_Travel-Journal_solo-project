@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #F55A5A;
+  height: 55px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  margin-bottom: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header--text {
+  color: #FFFFFF;
+  margin-left: 7px;
+  font-weight: 500;
+  font-size: 15x;
+}
+
+.card {
+  display: flex;
+  justify-content: left;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 5px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #F5F5F5;
+}
+.card--content{
+  overflow-wrap: anywhere;
+}
+
+.card--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.location--map-point {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.location--name {
+  color: #2B283A;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.location--URL {
+  color: #918E9B;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+
+.card-title--text {
+  margin-top: 0px;
+}
+
+.card-date__bold {
+  color: #2B283A;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.card-description--text{
+  color: #2B283A;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
 }
